@@ -3,7 +3,7 @@ from wpilib import DataLogManager
 
 
 class Robot(commands2.TimedCommandRobot):
-    def robotInit(self) -> commands2.TimedCommandRobot:
+    def robotInit(self):
         # Start recording NetworkTables to data log
         DataLogManager.start()
 
